@@ -1,4 +1,4 @@
-package chapter7.bad;
+package chapter7.procedure;
 
 import java.util.List;
 import java.util.Scanner;
@@ -72,6 +72,6 @@ public class PaymentSystem {
     }
 
     public static boolean hourly(String name) {
-        return hourlys[employees.indexOf(name)]
+        return hourlys[employees.indexOf(name)];
     }
 }
